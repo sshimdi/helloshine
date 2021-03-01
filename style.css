@@ -1,0 +1,42 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	background: url(header.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Mrs Saint Delafield', cursive;
+	font-size: 3em;
+	color: #fff;
+}
+
+hr{
+	border-color: white;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.row{
+	margin: auto;
+}
+
+.btn{
+	padding: 1 rem 3 rem;
+	border-radius: 300px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #d23299;
+	border-color: #d23299;
+	font-family: monospace;
+}
+
+.btn:hover{
+	background-color: #db5aad;
+	border-color: #db5aad;
+	color: #fff;
+	border-width: 2px;
+}
